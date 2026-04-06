@@ -21,6 +21,8 @@
                 <ul class="nav-links">
                     <li><a href="#inici">Inici</a></li>
                     <li><a href="#associacio">L'Associació</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#activitats">Activitats</a></li>
                     <li><a href="#noticies">Notícies</a></li>
                     <li><a href="#contacte">Contacte</a></li>
                 </ul>
@@ -51,6 +53,16 @@
         </div>
     </section>
 
+    <section id="events" class="container section bg-light">
+        <h2>Events</h2>
+        <p>Propers esdeveniments i assemblees de la comunitat.</p>
+    </section>
+
+    <section id="activitats" class="container section">
+        <h2>Activitats</h2>
+        <p>Tallers, trobades i activitats culturals a Font del Bosc.</p>
+    </section>
+
     <section id="noticies" class="container section">
         <h2>Notícies</h2>
         <p>Pròximament les últimes novetats del barri.</p>
@@ -59,10 +71,10 @@
     <section id="contacte" class="bg-light section">
         <div class="container">
             <h2>Contacta amb nosaltres</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Nom" required>
-                <input type="email" placeholder="Correu electrònic" required>
-                <textarea placeholder="En què et podem ajudar?"></textarea>
+            <form action="https://formspree.io/f/laveinalfdb@gmail.com" method="POST" class="contact-form">
+                <input type="text" name="nom" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Correu electrònic" required>
+                <textarea name="missatge" placeholder="En què et podem ajudar?"></textarea>
                 <button type="submit" class="btn">Enviar missatge</button>
             </form>
         </div>
